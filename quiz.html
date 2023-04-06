@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz.css">
+    <title>Quiz</title>
+    <script src="js/quiz.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-board">
+            <div class="header">
+                <div id="progress-bar">
+                    <div id="progress-bar-full">
+    
+                    </div>
+                    
+                </div>
+                <div class="status "><h4 id="statusText">NOT ATTEMPTED</h4></div>
+            </div>
+            <div class="query">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quo.</h3>
+            </div>
+            <div class="options">
+                <div class="option1 " >
+                    <p class="option">option1</p>
+                </div>
+                <div class="option2 ">
+                    <p class="option">option2</p> 
+                </div>
+                <div class="option3 ">
+                    <p class="option">option3</p>
+                </div>
+                <div class="option4 ">
+                    <p class="option">option4</p>
+                </div>
+            </div>
+            <div  class="btns">
+                <button class="pre" style="visibility:hidden" onclick="preQ()">previous</button>
+                <button class="btn" onclick="result()">SUBMIT</button>
+                <button class="next" onclick="nextQ()" style="visibility:visible">next</button>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
